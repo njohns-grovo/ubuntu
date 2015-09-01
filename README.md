@@ -26,7 +26,7 @@ end
 
 And here is a convenient bash script
 ```bash
-vagrant ssh -c "docker-compose \$1"
+vagrant ssh -c "docker-compose $*"
 ```
 
   * Save it to /usr/local/bin/servox
